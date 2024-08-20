@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.navbar {
+    height: 75px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-left: -20px;
+    margin-right: 60px;
+}
+
+.navbar-nav .nav-link {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6c63ff !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item img.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: -18px;
+    margin-left: 30px; 
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        margin-left: 30px;
+        padding: 10px;
+    }
+}
+
+.upper-head{
+    height: 38px;
+    width: 225px;
+    margin-top: 117px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+.upper-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vehicle-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+    background-color: white;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.vehicle-card img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+.vehicle-info {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+.vehicle-info h6 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+}
+.vehicle-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+.vehicle-info .badge {
+    font-size: 12px;
+}
+.vehicle-select {
+    text-align: right;
+}
+.vehicle-select .btn {
+    font-size: 14px;
+    padding: 5px 25px;
+    background-color: #242E69;
+    border: none;
+    border-radius: 20px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+.lem-1234{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+   
+}
+.chauffeur-card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chauffeur-card img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.chauffeur-card .card-body {
+    padding: 0;
+}
+
+.chauffeur-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.chauffeur-card .card-text {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.chauffeur-card .badge {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.label-chachu{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.header-is{
+    margin-left: 15px; 
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+.ppp{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+}
